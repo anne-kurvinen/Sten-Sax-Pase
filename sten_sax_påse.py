@@ -7,7 +7,7 @@ def sten_sax_pase():
         "påse": "📄"
     }
 
-    print("Välkommen till Sten-Sax-Påse! 🪨 ✂️ 📄")
+    print("Välkommen till spelet Sten-Sax-Påse! 🪨 ✂️ 📄")
     print("Spelet pågår tills du vinner eller förlorar.")
 
     while True:
