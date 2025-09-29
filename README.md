@@ -24,6 +24,6 @@ Ett enkelt terminalbaserat spel där du spelar **Sten-Sax-Påse** mot datorn.
 
 4. Kör spelet med följande kommando:
 
-   python3 sten_sax_påse.py
+   python3 ./sten_sax_påse.py
 
-5. Följ instruktionerna i terminalen för att spela spelet.
+5. Följ sedan instruktionerna i terminalen för att spela spelet.
