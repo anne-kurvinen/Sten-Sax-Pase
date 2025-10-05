@@ -14,6 +14,26 @@ Ett enkelt terminalbaserat spel där du spelar **Sten-Sax-Påse** mot datorn.
 
 ---
 
+## ⌨️ Hur du väljer
+
+Du kan välja på två sätt:
+
+**Fullständiga ord:**
+
+- `sten` för Sten 🪨
+- `sax` för Sax ✂️
+- `påse` för Påse 📄
+
+**Förkortningar (snabbare):**
+
+- `S` för Sten 🪨
+- `X` för Sax ✂️
+- `V` för Påse 📄
+
+_Du kan använda både stora och små bokstäver._
+
+---
+
 ## ▶️ Hur man kör programmet
 
 1. Se till att du har **Python 3** installerat på din dator.

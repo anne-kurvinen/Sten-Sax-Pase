@@ -7,14 +7,28 @@ def sten_sax_pase():
         "påse": "📄"
     }
 
+    # Förkortningar för enklare input
+    shortcuts = {
+        "s": "sten",
+        "x": "sax",
+        "v": "påse"
+    }
+
     print("Välkommen till spelet Sten-Sax-Påse! 🪨 ✂️ 📄")
     print("Spelet pågår tills du vinner eller förlorar.")
+    print("Förkortningar: S = sten, X = sax, V = påse")
 
     while True:
         # Spelarens val
-        player = input("Välj sten (🪨), sax (✂️) eller påse (📄): ").lower()
-        if player not in choices:
-            print("Ogiltigt val, försök igen!")
+        player_input = input("Välj sten (🪨), sax (✂️) eller påse (📄): ").lower()
+
+        # Kolla om det är en förkortning
+        if player_input in shortcuts:
+            player = shortcuts[player_input]
+        elif player_input in choices:
+            player = player_input
+        else:
+            print("Ogiltigt val, försök igen! Använd sten/sax/påse eller S/X/V")
             continue
 
         # Datorns val
